@@ -1,0 +1,18 @@
+{
+  "name": "env-validator-classroom-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small demonstration of validating application configuration with @yash_bura123/env-validator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "demo:success": "node index.js success",
+    "demo:failure": "node index.js failure"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@yash_bura123/env-validator": "^1.0.0"
+  }
+}
